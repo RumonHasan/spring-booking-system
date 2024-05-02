@@ -17,7 +17,6 @@ public class RoomResponse {
     private List<BookingResponse> bookings;
 
     // for the ui
-
     public RoomResponse(Long id, String roomType, BigDecimal roomPrice){
         this.id = id;
         this.roomType = roomType;
